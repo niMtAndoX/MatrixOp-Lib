@@ -13,10 +13,10 @@ void elemMult(Matrix3x3 a, Matrix3x3 b, Matrix3x3 result){
 void mult(Matrix3x3 a, Matrix3x3 b, Matrix3x3 result){
     for(int i = 0; i<3; i++ ){
         for(int k = 0; k<3; k++){
-            result[i][j] =
-                a[i][0] * b[0][j] +
-                a[i][1] * b[1][j] +
-                a[i][2] * b[2][j];
+            result[i][k] =
+                a[i][0] * b[0][k] +
+                a[i][1] * b[1][k] +
+                a[i][2] * b[2][k];
         }
     }
 }
