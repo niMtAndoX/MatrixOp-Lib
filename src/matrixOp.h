@@ -1,12 +1,12 @@
 #ifndef MATRIXOP_H
 #define MATRIXOP_H
 
-int  elemMult(int[][]);
-int mult(int[][]);
-int transpose(int[][]);
-int det(int[][]);
-int adjoint(int[][]);
-int inverse(int[][]);
+int  elemMult(int a[][], int b[][]);
+int mult(int a[][], int b[][]);
+int transpose(int a[][]);
+int det(int a[][]);
+int adjoint(int a[][]);
+int inverse(int a[][]);
 
 
 #endif
